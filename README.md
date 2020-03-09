@@ -1,6 +1,6 @@
 # pfsense-openvpn-notify
 
-pfSense Openvpn Server notify login/logout event
+pfSense OpenVPN notify login/logout events
 
 ## pfSense configuration
 
