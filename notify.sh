@@ -6,9 +6,9 @@
     $untrusted_ip = getenv('untrusted_ip');
     $script_type = getenv('script_type');
     $forceSMTP = TRUE;
-    
+
     $msg = "VPN Connection Event\n\n";
-    
+
     if ($script_type === 'client-connect') {
         $subject = "{$config['system']['hostname']}.{$config['system']['domain']} - VPN - $common_name ON";
         $msg .= "{$time_ascii} - {$common_name} CONNECTED from {$untrusted_ip}\n";
